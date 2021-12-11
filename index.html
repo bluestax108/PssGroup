@@ -139,6 +139,15 @@
         <p class="float-right"><a href="index.html">Back to top</a></p>
         <p>&copy; 2006-2022 PssGroup, Inc. &middot; Site Created by Rainbow Chaser</p>
       </footer>
+		<div id="Foot">
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery('#Foot').load('Footer.html', null, function(responseText, textStatus, xhr) {
+                    console.error(xhr); // 
+                });
+            });
+        </script>
+    </div>  
     </main>
 
     <!-- Bootstrap core JavaScript

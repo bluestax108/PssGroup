@@ -57,7 +57,15 @@
 		</div>
 	</div>
 	</div>
-	
+	<div id="Foot">
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery('#Foot').load('Footer.html', null, function(responseText, textStatus, xhr) {
+                    console.error(xhr); // 
+                });
+            });
+        </script>
+    </div>
 	
 	
 	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
